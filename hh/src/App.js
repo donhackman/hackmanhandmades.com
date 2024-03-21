@@ -3,14 +3,14 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div>
+  <div>
+
           <p>Hackman Handmades</p>
             <br/>
               <a mailto="contact@hackmanhandmades.com" style={{ textDecoration: 'none', color: 'darkorange' }} >contact@</a>
             <br></br>
             <br></br>
+            
               <a href="https://www.facebook.com/hackmanhandmades/" style={{ textDecoration: 'none' }} 
               target="_blank" 
               rel="noopener noreferrer">
@@ -22,8 +22,8 @@ function App() {
               rel="noopener noreferrer">
                 <img src="insta100.png" alt="insta" style={{width: '30px', height: '30px'}} />
               </a>
-            </div>
-      </header>
+  
+
     </div>
   );
 }
